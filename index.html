@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Progressive Web Apps</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <style>
+      img {
+        background-color: #fff;
+        padding: 20px 100px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section><h1>Progressive<br>Web Apps</h1></section>
+        <section>
+          <section>What are Progressive Web Apps?</section>
+          <section>
+            <ul>
+              <li>Platform-specific applications</li>
+              <li>Web applications</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Platform-specific applications</h3>
+            <p>feel like part of the device they run on</p>
+            <br />
+            <p>Platform-specific applications</p>
+            <ul>
+              <li>Incredibly rich and reliable</li>
+              <li>Work regardless of network connection</li>
+              <li>Launch in their own standalone experience</li>
+              <li>Can read and write files</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Web applications</h3>
+            <p>
+              can reach anyone, anywhere, on any device with a single codebase
+            </p>
+          </section>
+        </section>
+        <section>So where do Progressive Web Apps fit in?</section>
+        <section>
+          <p>Progressive Web Apps (PWA)</p>
+          <div>
+            <img
+              decoding="async"
+              height="367"
+              width="370"
+              loading="lazy"
+              src="https://web-dev.imgix.net/image/tcFciHGuF3MxnTr1y5ue01OGLBn2/1DKtUFjXLJbiiruKA9P1.svg"
+            />
+          </div>
+        </section>
+        <section>
+          <section>
+            <h2>The three app pillars</h2>
+            <ol>
+              <li>Capable</li>
+              <li>Reliable</li>
+              <li>Installable</li>
+            </ol>
+          </section>
+          <section>
+            <h1>Capable</h1>
+            <p>
+              Between modern APIs, WebAssembly, and new and upcoming APIs, web
+              applications are more capable than ever, and those capabilities
+              are only growing.
+            </p>
+          </section>
+          <section>
+            <h1>Reliable</h1>
+            <p>
+              Users deserve apps that respond to interaction in the blink of an
+              eye, and an experience they can depend on.
+            </p>
+          </section>
+          <section>
+            <h1>Installable</h1>
+            <p>New capabilities open up after a web app is installed.</p>
+            <p>
+              When a Progressive Web App moves out of a tab and into a
+              standalone app window, it transforms how users think about it and
+              interact with it.
+            </p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>The numbers don't lie!</h2>
+            <p>
+              Companies that have launched Progressive Web Apps have seen
+              impressive results
+            </p>
+          </section>
+          <section>
+            <h1>Twitter</h1>
+            <ul>
+              <li>65% increase in pages per session</li>
+              <li>75% more Tweets</li>
+              <li>20% decrease in bounce rate</li>
+              <li>reducing the size of their app by over 97%</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Nikkei</h1>
+            <ul>
+              <li>2.3 times more organic traffic</li>
+              <li>58% more subscriptions</li>
+              <li>49% more daily active users</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Hulu</h1>
+            <ul>
+              <li>27% increase in return visits</li>
+            </ul>
+          </section>
+        </section>
+
+        <section>How Progressive Web Apps can drive business success</section>
+
+        <section>
+          <section>
+            <p></p>
+            <blockquote cite="https://about.google/philosophy/">
+              &ldquo;focus on the user and all else will follow&rdquo;
+            </blockquote>
+            <p>(Google)</p>
+            <div>
+              <img
+                decoding="async"
+                height="250"
+                width="700"
+                loading="lazy"
+                src="https://web-dev.imgix.net/image/admin/TcmXmWb5mSUqal98NIAH.jpg?auto=format&w=845"
+              />
+            </div>
+          </section>
+          <section>
+            <h1>F.I.R.E.</h1>
+            <hr>
+            <ul>
+              <li>fast</li>
+              <li>installable</li>
+              <li>reliable</li>
+              <li>engaging</li>
+            </ul>
+          </section>
+          <section>
+            <h1>FAST</h1>
+            <p>
+              A recent study from Deloitte Digital shows that page speed has a
+              significant impact on business metrics.
+            </p>
+            <div>
+              <img
+                decoding="async"
+                height="200"
+                width="700"
+                loading="lazy"
+                src="https://web-dev.imgix.net/image/admin/Qq3wo5UOqzC1ugnTzdqT.jpg?auto=format&w=845"
+              />
+            </div>            
+          </section>
+          <section>
+            <h1>installable</h1>
+            <p>
+              Why would you want a user to install your PWA?<br />To make it
+              easier to come back to your site.
+            </p>
+            <div>
+              <img
+                decoding="async"
+                height="200"
+                width="700"
+                loading="lazy"
+                src="https://web-dev.imgix.net/image/admin/u1jcKrBBOHEzSz3SqhEB.jpg?auto=format&w=845"
+              />
+            </div>            
+          </section>
+          <section>
+            <h1>reliable</h1>
+            <p>
+              When an app installed from an app store is launched, users expect
+              it to open regardless of whether they're connected to the internet
+            </p>
+            <div>
+              <img
+                decoding="async"
+                height="200"
+                width="700"
+                loading="lazy"
+                src="https://web-dev.imgix.net/image/admin/ubglZLCoddAfB5cl8JSz.jpg?auto=format&w=845"
+              />
+            </div>
+          </section>
+          <section>
+            <h1>engaging</h1>
+            <p>
+              Web push notifications allow users to opt-in to timely updates
+              from sites they need or care about and allow you to effectively
+              re-engage them with customized, relevant content.
+            </p>
+            <div>
+              <img
+                decoding="async"
+                height="200"
+                width="700"
+                loading="lazy"
+                src="https://web-dev.imgix.net/image/admin/UpzfxBDi3e66cZ9gzkkS.jpg?auto=format&w=845"
+              />
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>The P in PWA</h1>
+            <p>a progressive launch, feature by feature</p>
+            <div>
+              <img
+                decoding="async"
+                height="200"
+                width="700"
+                loading="lazy"
+                src="https://web-dev.imgix.net/image/admin/7g1j2z7h5m9QSHQhHceM.jpg?auto=format&w=845"
+              />
+            </div>
+          </section>
+          <section>
+            To accelerate the modernization of your website and make it a real
+            PWA, encourage you to be agile: launch <u>feature by feature</u>
+          </section>
+          <section>
+            <h3>First</h3>
+            <p>research with your users what features would bring them the most value, then deliver them with your designers and developers</p>
+          </section>
+          <section>
+            <h3>finally</h3>
+            <p>do not forget to measure precisely how much extra money your PWA generated</p>
+          </section>
+        </section>
+
+        <section>What makes a good Progressive Web App?</section>
+
+        <section>
+          <section>
+            <h1>Core Progressive Web App checklist </h1>
+          </section>
+          <section>
+            <h3>Starts fast, stays fast</h3>
+            <hr>
+            <p>Performance plays a significant role in the success of any online experience, because high performing sites engage and retain users better than poorly performing ones. Sites should focus on optimizing for user-centric performance metrics.</p>
+          </section>
+          <section>
+            <h3>Works in any browser</h3>
+            <hr>
+            <p>Users can use any browser they choose to access your web app before it's installed.</p>
+          </section>
+          <section>
+            <h3>Responsive to any screen size</h3>
+            <hr>
+            <p>Users can use your PWA on any screen size and all of the content is available at any viewport size.</p>
+          </section>
+          <section>
+            <h3>Provides a custom offline page</h3>
+            <hr>
+            <p>When users are offline, keeping them in your PWA provides a more seamless experience than dropping back to the default browser offline page.</p>
+          </section> 
+        </section>
+
+        <section>
+          Thank you
+        </section>
+
+
+
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
